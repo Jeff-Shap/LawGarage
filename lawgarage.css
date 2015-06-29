@@ -1,0 +1,262 @@
+/*lawgarage.css*/
+
+
+
+/*TESTING*/
+
+#blankspace {
+  height: 1000px;
+  position: relative;
+  top: 1100px;
+}
+
+.red {
+  background-color: red;
+  border: 2px dashed blue;
+}
+
+.yellow {
+  background-color: yellow;
+  border: 2px dashed green;
+}
+
+.green {
+  background-color: green;
+  border: 2px dashed yellow;
+  }
+
+.blue {
+  background-color: blue;
+  border: 2px dashed red;
+}
+
+.black {
+  background-color: black;
+  border: 2px dashed white;
+}
+
+
+
+
+
+/*IN USE*/
+
+#navbar {
+  margin-bottom: 0;
+}
+
+table {
+  margin: auto;
+}
+
+table > caption {
+  text-align: center;
+}
+
+
+/*SCENE I - LANDING PAGE*/
+
+#garage {
+  margin: auto;
+  position: relative;
+  top: 100px;
+  border: 25px;
+}
+
+#garage-door {
+  border: 2px green solid;
+  background-image: url("./images/LG_raw_compressed.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 550px;
+  margin: auto;
+  margin-top: 20px;
+  width: 80%;
+}
+
+.garage-panel {
+  border: 1px green dashed;
+  height: 125px;
+  position: relative;
+
+}
+
+#down-arrows {
+  position: relative;
+  top: 150px;
+  text-align: center;
+  height: 300px;
+}
+
+
+
+
+
+
+
+/*SCENE II - ABOUT US: Founders*/
+
+#about-founders {
+  margin: auto;
+  margin-top: 80px;
+  text-align: center;
+}
+
+#founder-head {
+  margin-top: 40px;
+}
+
+
+.founders > div > img {
+  height: 250px;
+  width: 200px;
+}
+
+.founder-name {
+  font-size: 20px;
+}
+
+.initial {
+  font-size: 25px;
+  font-weight: bolder;
+}
+
+
+
+
+
+/*SCENE III - ABOUT US: Mission*/
+
+#about-mission {
+  text-align: center;
+  position: relative;
+  top: 250px;
+  width: 50%;
+}
+
+#scales {
+  margin-top: 20px;
+}
+
+#scales > img {
+  height: 300px;
+  width: 300px;
+}
+
+#scales > .img-circle {
+  shape-outside: circle(50%);
+  float: left;
+}
+
+#mission-text {
+  text-align: justify;
+}
+
+
+
+
+
+/*SCENE IV - Pricing*/
+
+#prices_anchor {
+  position: relative;
+  top: 400px;
+}
+
+#pricing {
+  position: relative;
+  top: 500px;
+  text-align: center;
+}
+
+#fixed-member-prices {
+  position: relative;
+  top: 20px;
+}
+
+.fixed-prices {
+  position: relative;
+  top: 50px;
+}
+
+.flat-rates > table {
+  margin: auto;
+}
+
+
+
+#flat-rate-table > tr > th {
+  text-align: center;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+
+.flat-rates2 {
+  display: inline;
+  float: left;
+}
+
+.cost {
+  padding-left: 10px;
+}
+
+.feature {
+  text-align: right;
+}
+
+#members > tbody > tr > td {
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-bottom: 5px;
+  border-bottom: 1px dashed black;
+}
+
+#members > tbody > tr > td.price {
+  border-bottom: none;
+}
+.tier2 {
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+}
+
+
+
+/*SCENE V - TESTIMONIALS*/
+
+#feedback_anchor {
+  position: relative;
+  top: 900px;
+}
+
+#testimonials {
+  position: relative;
+  top: 1000px;
+}
+
+#testimonial-head > h2 {
+  text-align: center;
+}
+
+.testimonial-row {
+  position: relative;
+  left: 4%;
+}
+
+.testimonial-text {
+      font-size: 0.4em;
+      font-weight: bolder;
+    }
+.testimonial-pic {
+  height: 130px;
+  width: 100px;
+  position: relative;
+  left: 15px;
+}
+
+.testimonial-name, .testimonial-biz, .testimonial-prod {
+  text-align: center;
+  }
+
+
