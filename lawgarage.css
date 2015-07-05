@@ -41,8 +41,12 @@
 
 /*IN USE*/
 
+
+
 #navbar {
   margin-bottom: 0;
+  background-image: none;
+  background-color: rgba(75,75,75,0.3);
 }
 
 table {
@@ -108,7 +112,7 @@ table > caption {
 }
 
 
-.founders > div > img {
+.founders > div > div> img {
   height: 250px;
   width: 200px;
 }
