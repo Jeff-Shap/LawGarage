@@ -68,7 +68,6 @@ table > caption {
 }
 
 #garage-door {
-  border: 2px green solid;
   background-image: url("./images/garagemockup.png");
   background-size: contain;
   background-repeat: no-repeat;
