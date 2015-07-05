@@ -65,7 +65,7 @@ table > caption {
 
 #garage-door {
   border: 2px green solid;
-  background-image: url("./images/LG_raw_compressed.png");
+  background-image: url("./images/garagemockup.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -77,10 +77,10 @@ table > caption {
 
 .garage-panel {
   border: 1px green dashed;
-  height: 125px;
-  position: relative;
+  height: 50px;
 
 }
+
 
 #down-arrows {
   position: relative;
