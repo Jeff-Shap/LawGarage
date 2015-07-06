@@ -292,12 +292,12 @@ caption {
 /*SCENE VI: LEGAL DOCS*/
 
 #documents {
-  background-color: red;
   position: relative;
   top: 1300px;
   margin: auto;
   text-align: center;
 }
+
 
 .doc {
   border: 1px solid blue;
