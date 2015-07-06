@@ -46,7 +46,7 @@
 #navbar {
   margin-bottom: 0;
   background-image: none;
-  background-color: rgba(75,75,75,0.3);
+  background-color: rgba(255,255,255,0.8);
 }
 
 table {
@@ -136,6 +136,10 @@ table > caption {
   position: relative;
   top: 250px;
   width: 50%;
+  border: 2px solid rgb(200,150,250);
+  border-radius:25px;
+  background-color: rgba(200,150,250,0.5);
+  padding-bottom: 10px;
 }
 
 #scales {
@@ -164,7 +168,7 @@ table > caption {
 
 #prices_anchor {
   position: relative;
-  top: 400px;
+  top: 300px;
 }
 
 #pricing {
@@ -181,6 +185,9 @@ table > caption {
 .fixed-prices {
   position: relative;
   top: 50px;
+  border-radius: 25px;
+  color: white;
+  padding-bottom: 10px;
 }
 
 .flat-rates > table {
@@ -209,6 +216,12 @@ table > caption {
   text-align: right;
 }
 
+.member-prices {
+  border-radius: 25px;
+  color: white;
+  padding-bottom: 10px;
+}
+
 #members > tbody > tr > td {
   padding-right: 10px;
   padding-left: 10px;
@@ -224,7 +237,18 @@ table > caption {
   border-right: 1px solid black;
 }
 
+.caption {
+  color: white !important;
+}
 
+caption {
+  color: white;
+}
+
+#feedback-button {
+  position: relative;
+  top: 40px;
+}
 
 /*SCENE V - TESTIMONIALS*/
 
