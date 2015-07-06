@@ -177,6 +177,11 @@ table > caption {
   text-align: center;
 }
 
+#price-header {
+  color: white;
+}
+
+
 #fixed-member-prices {
   position: relative;
   top: 20px;
@@ -259,31 +264,53 @@ caption {
 
 #testimonials {
   position: relative;
-  top: 1000px;
+  top: 800px;
 }
 
-#testimonial-head > h2 {
+#test-head {
   text-align: center;
 }
 
-.testimonial-row {
-  position: relative;
-  left: 4%;
+.test-quote {
+  border: 3px dotted black;
+  border-radius: 25px;
 }
 
-.testimonial-text {
-      font-size: 0.4em;
-      font-weight: bolder;
-    }
-.testimonial-pic {
-  height: 130px;
-  width: 100px;
-  position: relative;
-  left: 15px;
+#test-block-1 {
+  margin-top: 20px;
 }
 
-.testimonial-name, .testimonial-biz, .testimonial-prod {
+#test-block-2 {
+  margin-top: 80px;
+}
+
+.test-block-right {
+  position: relative;
+  top: 40px;
+}
+
+/*SCENE VI: LEGAL DOCS*/
+
+#documents {
+  background-color: red;
+  position: relative;
+  top: 1300px;
+  margin: auto;
   text-align: center;
-  }
+}
 
+.doc {
+  border: 1px solid blue;
+  margin-bottom: 15px;
+}
+
+.docicon {
+  height: 30px;
+  width: 30px;
+}
+
+.docinfo {
+  font-size: 12px;
+  font-style: italic;
+}
 
